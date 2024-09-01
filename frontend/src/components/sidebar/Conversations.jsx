@@ -1,9 +1,36 @@
-import React from 'react'
+// import React from 'react'
+// import Conversation from './Conversation'
 
-const Conversations = () => {
-  return (
-    <div>Conversations</div>
-  )
-}
+// const Conversations = () => {
+//   return (
+//     <div className='py-2 h-[400px] flex flex-col overflow-auto'>
+//         <Conversation />
+//         <Conversation />
+//         <Conversation />
+//         <Conversation />
+//         <Conversation />
+//         <Conversation />
 
-export default Conversations
+
+//     </div>
+//   )
+// }
+
+// export default Conversations
+
+
+import Conversation from "./Conversation";
+
+ const Conversations = () => {
+ 	return (
+ 		<div className='py-2 flex flex-col overflow-auto'>
+ 			<Conversation />
+ 			<Conversation />
+ 			<Conversation />
+ 			<Conversation />
+ 			<Conversation />
+ 			<Conversation />
+ 		</div>
+ 	);
+ };
+ export default Conversations;

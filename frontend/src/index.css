@@ -6,4 +6,28 @@
 body{
     background-color: #f8f8ad;
 
+
+    
+
 }
+
+
+
+/* dark mode looking scrollbar */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: black;
+}
+
+::-webkit-scrollbar-thumb {
+	background: black;
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: black;
+}
+
